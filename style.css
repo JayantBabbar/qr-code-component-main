@@ -17,12 +17,13 @@ body {
 .container {
   background-color: var(--White);
   /* position: relative; */
-  text-align: center;
+  /* text-align: center; */
   padding: 12px;
   width: min-content;
   border-radius: 12px;
   margin: auto;
-  margin-top: 100px;
+  vertical-align: center;
+  /* margin-top: 100px; */
 }
 
 .qr-img {
@@ -40,6 +41,7 @@ body {
   color: var(--Dark-blue);
   font-weight: 700;
   font-size: 21px;
+  
 }
 
 .text {
