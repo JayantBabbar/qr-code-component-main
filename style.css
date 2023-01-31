@@ -10,12 +10,11 @@
 body {
   background-color: var(--Light-gray);
   text-align: center;
-  /* position: relative; */
 }
 
 .container {
   background-color: var(--White);
-  padding: 12px;
+  padding: 15px;
   width: min-content;
   border-radius: 12px;
   position: absolute;
@@ -38,17 +37,13 @@ body {
 
 #head {
   color: var(--Dark-blue);
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 23px;
+  font-weight:900;
 }
 
-.text {
-  width: 250px;
-  margin: auto;
-}
 
 main {
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Outfit", serif;
   text-align: center;
   /* position: relative; */
