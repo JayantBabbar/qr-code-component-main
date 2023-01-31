@@ -9,21 +9,20 @@
 
 body {
   background-color: var(--Light-gray);
-  font-size: 15px;
-  font-family: "Outfit", serif;
   text-align: center;
+  /* position: relative; */
 }
 
 .container {
   background-color: var(--White);
-  /* position: relative; */
-  /* text-align: center; */
   padding: 12px;
   width: min-content;
   border-radius: 12px;
-  margin: auto;
-  vertical-align: center;
-  /* margin-top: 100px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .qr-img {
@@ -40,8 +39,7 @@ body {
 #head {
   color: var(--Dark-blue);
   font-weight: 700;
-  font-size: 21px;
-  
+  font-size: 20px;
 }
 
 .text {
@@ -49,3 +47,9 @@ body {
   margin: auto;
 }
 
+main {
+  font-size: 15px;
+  font-family: "Outfit", serif;
+  text-align: center;
+  /* position: relative; */
+}
